@@ -24,6 +24,7 @@ namespace APISample.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
+                //TODO appSettingsに定義予定
                 optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=SampleDB;Integrated Security=True;Persist Security Info=False");
             }
         }
